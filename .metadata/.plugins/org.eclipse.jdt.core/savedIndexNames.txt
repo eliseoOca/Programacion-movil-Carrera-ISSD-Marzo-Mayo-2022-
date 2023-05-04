@@ -1,0 +1,14 @@
+INDEX VERSION 1.126+C:\Users\Ulises\Andriod 4.2 proyecto\.metadata\.plugins\org.eclipse.jdt.core
+3257138350.index
+2174828620.index
+4012972671.index
+3484758360.index
+147708536.index
+3852684726.index
+550578818.index
+29225318.index
+23090553.index
+2443765152.index
+2352018159.index
+2692428682.index
+2588908324.index

@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff"
+    android:background="#33ffff"
     android:gravity="center"
     tools:context=".MainActivity" >
 
@@ -19,7 +19,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Código" />
+            android:text="Código"
+            android:textColor="#0033FF" />
 
         <EditText
             android:id="@+id/et1"
@@ -27,6 +28,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -42,7 +44,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Nombre:" />
+            android:text="Nombre:"
+            android:textColor="#0033FF" />
 
         <EditText
             android:id="@+id/et2"
@@ -66,13 +69,15 @@
             android:id="@+id/tv3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Género:" />
+            android:text="Género:"
+            android:textColor="#0033FF" />
 
         <EditText
             android:id="@+id/et3"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_weight="1" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -87,13 +92,15 @@
             android:id="@+id/tv4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Precio: $" />
+            android:text="Precio: $"
+            android:textColor="#0033FF" />
 
         <EditText
             android:id="@+id/et4"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_weight="1" />
+
     </LinearLayout>
 
     <RadioGroup
@@ -108,13 +115,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
-            android:text="Abona de Contado" />
+            android:text="Abona de Contado"
+            android:textColor="#0033FF" />
 
         <RadioButton
             android:id="@+id/rb2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Abona con Tarjeta" />
+            android:text="Abona con Tarjeta"
+            android:textColor="#0033FF" />
+
     </RadioGroup>
 
     <CheckBox
@@ -123,7 +133,8 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/linearLayout4"
         android:layout_centerVertical="true"
-        android:text="Abona al recibir el producto" />
+        android:text="Abona al recibir el producto"
+        android:textColor="#0033FF" />
 
     <Button
         android:id="@+id/b1"
@@ -163,6 +174,7 @@
             android:layout_height="25dp"
             android:gravity="center"
             android:text="--------------" />
+
     </LinearLayout>
 
 </RelativeLayout>
